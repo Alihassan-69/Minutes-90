@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --card: rgba(10,14,20,0.6); }
+html,body,#root{height:100%;}
+body{font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto;}
+.card{ @apply bg-slate-800/70 border border-slate-700 rounded-xl p-4 shadow-xl; }
